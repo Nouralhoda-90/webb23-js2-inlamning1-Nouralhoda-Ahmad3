@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/app.js" ></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div id="game">
+        <h1>Rock Paper Scissors</h1>
+        <div class="scoreboard">
+    <p id="score">Score: 0</p>
+    <div id="player-name-wrapper">
+        <form id="player-form">
+            <input type="text" id="player-name-input" placeholder="Enter Your Name" required>
+        </form>
+        <span id="player-name"></span>
+      
+    </div>
+</div>
+        <div class="hands">
+            <div id="player-hand"></div>
+            <div id="computer-hand"></div>
+        </div>
+        <p id="result"></p>
+        <div class="hand-buttons">
+            <div class="hand-button" id="rock">
+                <i class="fas fa-hand-rock hand-icon"></i>
+            </div>
+            <div class="hand-button" id="paper">
+                <i class="fas fa-hand-paper hand-icon"></i>
+            </div>
+            <div class="hand-button" id="scissors">
+                <i class="fas fa-hand-scissors hand-icon"></i>
+            </div>
+        </div>
+        <div class="high-scores">
+            <h2>High Scores</h2>
+            <ol id="high-scores"></ol>
+        </div>
+    </div>
+</body>
+</html>
+
+
